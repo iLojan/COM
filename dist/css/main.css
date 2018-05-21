@@ -79,6 +79,14 @@ font-size: 22px;
   border: none !important;
   padding: 10px !important;
 }
+.or{
+  background-position: 5px -31px;
+  background-repeat: no-repeat;
+  width: 46px;
+  border-radius: 10px 0px 0px 0px !important;
+  border: none !important;
+  padding: 10px !important;
+}
 .origin-border{
       border: none !important;
   border-radius: 0px 10px 0px 0px !important
