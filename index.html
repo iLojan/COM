@@ -5,7 +5,8 @@
     <title></title>
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="stylesheet" href="dist/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="dist/css/bootstrap-grid.css"> -->
+    <link rel="stylesheet" href="dist/slick/slick.css">
+    <link rel="stylesheet" href="dist/slick/slick-theme.css">
 
   </head>
   <body>
@@ -23,11 +24,13 @@
       </div>
     </div>
     <div class="top-second-section ">
+      <div class="slider thing">
       <div class="container top-second-section-container">
         <img src="dist/img/logo/logo.png" class="mainLogo" alt="">
       </div>
     </div>
-    <div class="main-banner-main-div" style="background-image: url('dist/img/banner/bg.jpg');">
+    </div>
+    <div class="main-banner-main-div" style="background-image: url('dist/img/banner/tr2.jpg');">
     </div>
     <section class="serch-section">
       <div class="container">
@@ -113,8 +116,11 @@
         <div class="row">
           <h2 class="section-h2">Today Deal & Offers</h2>
           <div class="section-deal-width">
+            <div class="slider thing">
+
+              <div class="slider deal-offers">
             <div class="deal-item">
-              <img src="dist/img/deal-item/hotel-3.jpg" class="deal-item-img" alt="">
+              <img src="dist/img/deal-item/maldives-tours-trips.jpg" class="deal-item-img" alt="">
               <div class="deal-item-info">
                 <div class="item-into">
                   <div class="item-info-icon"> </div>
@@ -129,7 +135,7 @@
 
             </div>
             <div class="deal-item">
-              <img src="dist/img/deal-item/hotel-3.jpg" class="deal-item-img" alt="">
+              <img src="dist/img/deal-item/maxresdefault.jpg" class="deal-item-img" alt="">
               <div class="deal-item-info">
                 <div class="item-into">
                   <div class="item-info-icon"> </div>
@@ -143,9 +149,8 @@
               </div>
 
             </div>
-
             <div class="deal-item">
-              <img src="dist/img/deal-item/hotel-3.jpg" class="deal-item-img" alt="">
+              <img src="dist/img/deal-item/traveller.jpg" class="deal-item-img" alt="">
               <div class="deal-item-info">
                 <div class="item-into">
                   <div class="item-info-icon"> </div>
@@ -159,6 +164,37 @@
               </div>
 
             </div>
+            <div class="deal-item">
+              <img src="dist/img/deal-item/contactus-image.jpg" class="deal-item-img" alt="">
+              <div class="deal-item-info">
+                <div class="item-into">
+                  <div class="item-info-icon"> </div>
+                  <div class="item-info-text">Colombo to Dubai Round trip </div>
+
+                </div>
+                <div class="item-rate">
+                  <div class="from">From</div>
+                  <div class="rate">37,000 LKR</div>
+                </div>
+              </div>
+
+            </div>
+            <div class="deal-item">
+              <img src="dist/img/deal-item/maxresdefault.jpg" class="deal-item-img" alt="">
+              <div class="deal-item-info">
+                <div class="item-into">
+                  <div class="item-info-icon"> </div>
+                  <div class="item-info-text">Colombo to Dubai Round trip </div>
+
+                </div>
+                <div class="item-rate">
+                  <div class="from">From</div>
+                  <div class="rate">37,000 LKR</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
           </div>
         </div>
 
@@ -169,30 +205,222 @@
         <div class="row">
           <h2 class="section-h2">Our Patner</h2>
           <div class="section-deal-width">
-            <div class="our-patner">
-              <img src="dist/img/deal-item/08-iphone-share-app-thumb.png" class="our-patner-img" alt="">
+            <div class="slider patners">
+              <div class="our-patner">
+                <img src="dist/img/deal-item/2.png" class="our-patner-img" alt="">
+              </div>
+
+              <div class="our-patner">
+                <img src="dist/img/deal-item/3.png" class="our-patner-img" alt="">
+              </div>
+
+              <div class="our-patner">
+                <img src="dist/img/deal-item/4.png" class="our-patner-img" alt="">
+              </div>
+
+              <div class="our-patner">
+                <img src="dist/img/deal-item/5.png" class="our-patner-img" alt="">
+              </div>
+
+
+              <div class="our-patner">
+                <img src="dist/img/deal-item/4.png" class="our-patner-img" alt="">
+              </div>
+              
+
             </div>
 
-            <div class="our-patner">
-              <img src="dist/img/deal-item/08-iphone-share-app-thumb.png" class="our-patner-img" alt="">
-            </div>
-
-            <div class="our-patner">
-              <img src="dist/img/deal-item/08-iphone-share-app-thumb.png" class="our-patner-img" alt="">
-            </div>
-
-            <div class="our-patner">
-              <img src="dist/img/deal-item/08-iphone-share-app-thumb.png" class="our-patner-img" alt="">
-            </div>
-
-            <div class="our-patner">
-              <img src="dist/img/deal-item/08-iphone-share-app-thumb.png" class="our-patner-img" alt="">
-            </div>
 
           </div>
         </div>
 
       </div>
     </section>
+
+      <script type="text/javascript" src="dist/js/jquery-3.3.1.min.js"> </script>
+     <script type="text/javascript" src="dist/js/bootstrap.js"> </script>
+      <script type="text/javascript" src="dist/slick/slick.js"> </script>
+
+    <script type="text/javascript">
+
+
+ $(document).ready(function () {
+
+
+
+
+     $('.thing').slick({
+         dots: false,
+         arrows:false,
+         autoplay:true,
+         speed:400,
+     });
+     $(".deal-offers").slick({
+         dots: true,
+//            infinite: true,
+         slidesToShow: 4,
+         slidesToScroll:1,
+         autoplay:false,
+         arrows:true,
+         speed:300,
+         responsive: [
+             {
+                 breakpoint: 1200,
+                 settings: {
+                     arrows: true,
+                     autoplay: true,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 4
+                 }
+             },
+             {
+                 breakpoint:  992,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     speed:300,
+                     centerPadding: '40px',
+                     slidesToShow: 3
+                 }
+             },
+             {
+                 breakpoint: 480,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 1
+                 }
+             }
+         ]
+     });
+     $(".patners").slick({
+         dots:true,
+         slidesToShow:5,
+         slidesToScroll:1,
+//            autoplay:true,
+         autoplay:false,
+         arrows:true,
+         responsive: [
+             {
+                 breakpoint: 1631,
+                 settings: {
+                     arrows: true,
+                     autoplay: true,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 4
+                 }
+             },
+
+             {
+                 breakpoint:  993,
+                 settings: {
+                     arrows: false,
+                     autoplay:true,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 3
+                 }
+             },
+             {
+                 breakpoint:  778,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 2
+                 }
+             },
+             {
+                 breakpoint: 480,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 1
+                 }
+             },
+             {
+                 breakpoint: 576,
+                 settings:{
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 2
+                 }
+             }
+         ]
+     });
+     $(".gift").slick({
+         dots:true,
+         slidesToShow:3,
+         slidesToScroll:1,
+         autoplay:true,
+         speed:600,
+         arrows:false,
+         responsive: [
+             {
+                 breakpoint:  1200,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 2
+                 }
+             },
+             {
+                 breakpoint:  993,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 3
+                 }
+             },
+             {
+                 breakpoint:  991,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 2
+                 }
+             },
+             {
+                 breakpoint: 480,
+                 settings: {
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 1
+                 }
+             },
+             {
+                 breakpoint: 767,
+                 settings:{
+                     arrows: false,
+                     autoplay:false,
+                     centerMode: false,
+                     centerPadding: '40px',
+                     slidesToShow: 2
+                 }
+             }
+         ]
+     })
+ })
+</script>
+
+
   </body>
 </html>

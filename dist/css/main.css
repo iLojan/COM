@@ -32,7 +32,9 @@ body{
 }
 .mainLogo{width: 100px;}
 .main-banner-main-div{
-height: 554px;
+    height: 554px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Search Menu in Index */
@@ -149,6 +151,7 @@ font-size: 22px;
 }
 .deal-item-img{
   width: 100%;
+  height: 258px;
 }
 .deal-item-info{
   background: #fff;
@@ -175,9 +178,10 @@ font-size: 22px;
   padding: 4px;
 }
 .our-patner-img{
-  width: 100%;
-  background-color: #fff;
-  padding: 10px;
+  width: 209px;
+background-color: #fff;
+padding: 39px;
+height: 209px;
 }
 
 
