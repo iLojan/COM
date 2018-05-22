@@ -1,3 +1,6 @@
+body{
+  background-color: #ececec !important;
+}
 .nav-link{
   color:#fff;
 }
@@ -18,19 +21,25 @@
 
   padding: 15px 0;
 }
+.top-nav-section-container{
+  margin-right: 1px !important;
+}
+.top-second-section-container{
+  margin-left: 19px !important;
+}
 .top-second-section .nav-link {
     color:#000;
 }
 .mainLogo{width: 100px;}
 .main-banner-main-div{
-height: 600px;
+height: 554px;
 }
 
 /* Search Menu in Index */
 .serch-section {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.3);
     padding: 20px 0;
-    margin-top: 465px;
+    margin-top: 365px;
     position: absolute;
     top: 0;
     left: 0;
@@ -49,13 +58,30 @@ height: 600px;
       padding-bottom: 6px;
 }
 .one-way{
+  width: 10%;
   margin: 0px 5px;
 }
 .btn-trip{
       float: left;
       border-radius: 10px 10px 0px 0px !important;
-      padding: 3px 40px !important;
+      padding: 1px 30px !important;
       background: #fff;
+      width: 100%
+}
+.flight-trip{
+      border-radius: 10px 10px 0px 0px !important;
+      padding: 4px !important;
+      background: #fff;
+      width: 15.3%;
+      float: right;
+}
+.btn-trip-active{
+  background: #de264c;
+  color: #fff;
+}
+.btn-trip:hover{
+  background: #de264c;
+  color: #fff;
 }
 .search-label{
   color: #fff;
@@ -64,11 +90,11 @@ margin: 1px;
 font-size: 22px;
 }
 .origin{
-  width: 18%;
+  width: 24%;
   padding: 0 5px;
 }
 .depart{
-  width: 15%;
+  width: 16%;
   padding: 0 5px;
 }
 .search-icon{
@@ -80,20 +106,78 @@ font-size: 22px;
   padding: 10px !important;
 }
 .or{
-  background-position: 5px -31px;
-  background-repeat: no-repeat;
-  width: 46px;
-  border-radius: 10px 0px 0px 0px !important;
-  border: none !important;
-  padding: 10px !important;
+      background-position: 12px -242px;
+      background-repeat: no-repeat;
+      width: 45px;
+      border-radius: 10px 0px 0px 0px !important;
+      border: none !important;
+      margin-top: 29px !important;
+      height: 42px;
 }
 .origin-border{
       border: none !important;
-  border-radius: 0px 10px 0px 0px !important
-  padding: 10px !important;
+  border-radius: 0px 10px 0px 0px !important;
+  padding: 6px !important;
 }
 .input-group-text{
   background-color:#fff !important;
+}
+.search-flight{
+  width: 100%;
+  float: right;
+  padding-right: 6px;
+}
+
+/* Today Deal & Offers */
+.deal-section{
+  padding-top: 3%;
+}
+.serch-section{
+
+}
+.section-h2{
+  color:#de264c;
+}
+.section-deal-width{
+  width: 100%;
+    float: left;
+    display: flex;
+}
+.deal-item{
+    width: 33%;
+    padding: 4px
+}
+.deal-item-img{
+  width: 100%;
+}
+.deal-item-info{
+  background: #fff;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.item-into{
+  width: 60%;
+float: left;
+font-size: 22px;
+}
+.item-rate{
+  width: 40%;
+  float:left;
+  text-align: right;
+  color: #de264c;
+  font-size: 22px;
+}
+/* OUR PATNER */
+.our-patner{
+  width: 22%;
+  /*  */
+  padding: 4px;
+}
+.our-patner-img{
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
 }
 
 
