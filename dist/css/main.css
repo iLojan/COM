@@ -1,5 +1,18 @@
+
+@font-face {
+    font-family: 'CANDARA';
+    src: url('font/CANDARA.eot');
+    src: local('CANDARA'), url('font/CANDARA.woff') format('woff'), url('font/CANDARA.ttf') format('truetype');
+}
+.fontsforweb_fontid_1398 {
+    font-family: 'CANDARA' !important;
+}
 body{
   background-color: #f5f5f5 !important;
+    font-family: 'CANDARA' !important;
+
+
+
 }
 .nav-link{
   color:#fff;
@@ -161,16 +174,32 @@ font-size: 22px;
     padding: 10px;
 }
 .item-into{
-  width: 60%;
+  width: 70%;
 float: left;
 font-size: 22px;
 }
 .item-rate{
-  width: 40%;
+  width: 30%;
   float:left;
   text-align: right;
   color: #de264c;
   font-size: 22px;
+}
+.item-info-text{
+    width:75%;
+    float: left;
+}
+.info-icon{
+    width: 53px;
+    height: 53px;
+    border: solid 3px #f69322;
+    border-radius: 43px;
+    padding-top: 6px;
+}
+.item-info-icon{
+    width:25%;
+    float: left;
+    padding-top: 8px;
 }
 /* OUR PATNER */
 .our-patner{
@@ -184,6 +213,9 @@ background-color: #fff;
 padding: 39px;
 height: 209px;
 }
+.you-fly-title{
+    font-size: 25px;
+}
 
 /*Slider*/
 
@@ -192,9 +224,6 @@ height: 209px;
     margin: 0px 20px;
 }
 
-.slick-slide img {
-    width: 100%;
-}
 
 .slick-prev:before,
 .slick-next:before {
