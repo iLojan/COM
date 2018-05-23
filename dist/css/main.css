@@ -142,7 +142,7 @@ font-size: 22px;
 }
 .section-deal-width{
   width: 100%;
-    float: left;
+    /* float: left; */
     display: flex;
 }
 .deal-item{
