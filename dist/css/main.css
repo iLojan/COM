@@ -230,17 +230,106 @@ height: 209px;
     color: black;
 }
 
-
-
+/*Offer*/
+.offer-img{
+    width: 81px;
+    height: 72px;
+    padding-top: 14px;
+}
+.offer-text{
+    padding: 27px 0px 0px 11px !important;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 20px;
+}
+.offer-btn-col{
+    padding-top: 29px !important;;
+}
+.offer-book-btn{
+    background: #de264c;
+    color:#fff;
+    padding: 0px 26px !important;
+    border-radius: 0 !important;
+}
+.travel-row{
+    margin: 18px 0px;
+}
 /**/
 /* Medium screen : 992px. */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+/*@media only screen and (min-width: 992px) and (max-width: 1199px) {}*/
 
   /* Tablet :768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*@media only screen and (min-width: 768px) and (max-width: 991px) {}*/
 
   /* Large Mobile :480px. */
-@media only screen and (max-width: 767px) {}
+/*@media only screen and (max-width: 767px) {}*/
 
   /* small Mobile :320px. */
-@media only screen and (max-width: 479px) {}
+/*@media only screen and (max-width: 479px) {}*/
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .deal-item-img{
+        height: 180px;
+    }
+    .item-info-icon {
+        padding-top: 3px;
+    }
+    .info-icon {
+        width: 40px;
+        height: 40px;
+        /* border-radius: 43px; */
+        padding-top: 2px;
+    }
+    .item-info-text{
+        font-size: 20px;
+    }
+    .item-rate{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .deal-item-img{
+        height: 180px;
+    }
+    .item-info-icon {
+        padding-top: 3px;
+    }
+    .info-icon {
+        width: 40px;
+        height: 40px;
+        /* border-radius: 43px; */
+        padding-top: 2px;
+    }
+    .item-info-text{
+        font-size: 17px;
+    }
+    .item-rate{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .deal-item-img{
+        height: 180px;
+    }
+    .item-info-icon {
+        padding-top: 3px;
+    }
+    .info-icon {
+        width: 33px;
+        height: 33px;
+        border-radius: 43px;
+        padding-top: 2px;
+    }
+    .item-info-text{
+        font-size: 15px;
+    }
+    .item-rate{
+        font-size: 14px;
+    }
+}
