@@ -254,6 +254,31 @@ height: 209px;
 .travel-row{
     margin: 18px 0px;
 }
+
+
+
+/* BEFORE YOUR FLY */
+.before-your-fly-text{
+  text-align: justify;
+}
+.offer-section-body{
+
+  padding-bottom: 0px !important;
+}
+
+
+
+/* footer */
+.footer{
+
+  height: 554px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-mainDiv{
+  padding: 20px
+}
+
 /**/
 /* Medium screen : 992px. */
 /*@media only screen and (min-width: 992px) and (max-width: 1199px) {}*/
