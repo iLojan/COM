@@ -151,8 +151,9 @@ font-size: 22px;
 
 }
 .section-h2{
-  color:#de264c;
+    color: #de264c;
     margin-bottom: 17px;
+    margin: 0px 20px;
 }
 .section-deal-width{
   width: 100%;
@@ -276,7 +277,9 @@ height: 209px;
   background-size: cover;
 }
 .footer-mainDiv{
-  padding: 20px
+    padding-top: 195px;
+    padding-left: 119px !important;
+    color: #fff;
 }
 
 /**/
@@ -356,5 +359,20 @@ height: 209px;
     }
     .item-rate{
         font-size: 14px;
+    }
+}
+@media (min-width:1630px) {
+    .deal-item-img {
+        height: 217px;
+    }
+    .item-info-text {
+        font-size: 21px;
+    }
+    .item-rate{
+        font-size: 21px;
+    }
+    .info-icon {
+        width: 50px;
+        height: 50px;
     }
 }
