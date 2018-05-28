@@ -23,7 +23,15 @@ body{
     width: auto;
     display: flex;
 }
-
+.card-img-top{
+  border-radius: 0 !important
+}
+li{
+  list-style: none;
+}
+.card{
+  border-radius: 0 !important;
+}
 .top-nav-section{
   background: #de264c;
   padding: 15px 0;
@@ -113,12 +121,13 @@ font-size: 22px;
   padding: 0 5px;
 }
 .search-icon{
-  background-position: 5px -31px;
   background-repeat: no-repeat;
-  width: 46px;
   border-radius: 10px 0px 0px 0px !important;
   border: none !important;
-  padding: 10px !important;
+  padding: 2px !important;
+}
+.search-icon-size{
+    width:44px;
 }
 .or{
       background-position: 12px -242px;
@@ -233,15 +242,15 @@ height: 209px;
 
 /*Offer*/
 .offer-img{
-    width: 81px;
-    height: 72px;
+  width: 90px;
+    height: auto;
     padding-top: 14px;
 }
 .offer-text{
     padding: 27px 0px 0px 11px !important;
     font-weight: 500;
     line-height: 1;
-    font-size: 20px;
+    font-size: 16px;
 }
 .offer-btn-col{
     padding-top: 29px !important;;
@@ -255,12 +264,16 @@ height: 209px;
 .travel-row{
     margin: 18px 0px;
 }
+.card-body-2{
+  padding:0px 1.25rem;
+}
 
 
 
 /* BEFORE YOUR FLY */
 .before-your-fly-text{
   text-align: justify;
+  line-height: 19px
 }
 .offer-section-body{
 
@@ -277,11 +290,135 @@ height: 209px;
   background-size: cover;
 }
 .footer-mainDiv{
-    padding-top: 195px;
-    padding-left: 119px !important;
+    padding: 150px  111px  0px !important;
     color: #fff;
 }
+.footer-a{
+  color:#fff;
+}
+.footer-ul{
+  padding: 0
+}
+.footer-link{
+  margin-top: 37px;
+    font-weight: 700;
+}
+.footer-input{
+  background-color: rgba(255,255,255,0.5) !important;
+    border: 0 !important;
+}
+.footer-btn{
+  width: 20% !important;
+    /* display: flex; */
+    float: right;
+    background: #de264c !important;
+    color: #fff !important;
+    font-weight: 700
+}
+.address{
+      font-size: 17px !important;
+}
 
+
+
+/* Search Page CSS */
+.modify-main{
+  width: 20%;
+  float: left;
+}
+.result-mai{
+  width: 80%;
+  float: left;
+}
+.rel-main-img{
+  width: 15%;
+  float: left;
+}
+.rel-main-info{
+  width: 85%;
+    padding-bottom: 6px;
+  float: left;
+      border-bottom: solid 1px #f5f5f5;
+}
+.rel-main-info2{
+  width: 85%;
+    padding-top: 6px;
+  float: left;
+      border-bottom: solid 1px #f5f5f5;
+}
+.city-name-main{
+  width: 60%;
+  float: left;
+}
+.paci-icon-main{
+  width: 20%;
+  float: left;
+}
+.sear-rate-main{
+  width: 20%;
+float: left;
+text-align: center;
+border-left: solid 1px #f5f5f5;
+padding-left: 10px;
+}
+.sear-rate-main2{
+  width: 19%;
+float: left;
+text-align: center;
+border-left: solid 1px #f5f5f5;
+padding-left: 10px;
+}
+.city-btn{
+  padding: 0px 20px !important;
+  color: #fff;
+  background: #048a7d !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  font-weight: 500 !important;
+  /* font-size: 14px !important; */
+}
+.city-span{
+  font-size: 14px;
+    color: #797676;
+    margin-top: -5px;
+    display: block;
+}
+
+.avg-span{
+  font-size: 14px;
+    color: #797676;
+    margin-bottom:-5px;
+    display: block;
+}
+.avg-rate{
+  font-size: 22px;
+      color: #8c8301;
+      font-weight: bold;
+      margin-bottom: -5px;
+      display: block;
+}
+.city-take-col{
+    width: 26.7%;
+    padding-top: 8px;
+    float: left;
+    border-right: solid 1px #f5f5f5
+}
+.cmb{
+    font-weight: 700;
+    font-size: 11px;
+}
+.cmb-icon{
+    width: 21px;
+}
+.take-off{
+    color: #de3f4c;
+    font-weight: 600;
+    font-size: 15px;
+}
+.tack-date{
+        font-weight: 600;
+    font-size: 13px;
+}
 /**/
 /* Medium screen : 992px. */
 /*@media only screen and (min-width: 992px) and (max-width: 1199px) {}*/
@@ -349,16 +486,16 @@ height: 209px;
         padding-top: 3px;
     }
     .info-icon {
-        width: 33px;
-        height: 33px;
+        width: 50px;
+        height: 50px;
         border-radius: 43px;
         padding-top: 2px;
     }
     .item-info-text{
-        font-size: 15px;
+        font-size: 20px;
     }
     .item-rate{
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 @media (min-width:1630px) {
