@@ -4,6 +4,7 @@
     src: url('font/CANDARA.eot');
     src: local('CANDARA'), url('font/CANDARA.woff') format('woff'), url('font/CANDARA.ttf') format('truetype');
 }
+
 .fontsforweb_fontid_1398 {
     font-family: 'CANDARA' !important;
 }
@@ -30,7 +31,12 @@ li{
   list-style: none;
 }
 .card{
-  border-radius: 0 !important;
+    border-radius: 0 !important;
+    height: 100%;
+    border: none;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
 }
 .top-nav-section{
   background: #de264c;
@@ -87,7 +93,7 @@ li{
 .btn-trip{
       float: left;
       border-radius: 10px 10px 0px 0px !important;
-      padding: 1px 30px !important;
+      padding: 1px 15px !important;
       background: #fff;
       width: 100%
 }
@@ -162,7 +168,7 @@ font-size: 22px;
 .section-h2{
     color: #de264c;
     margin-bottom: 17px;
-    margin: 0px 20px;
+    margin: 0px -1px;
 }
 .section-deal-width{
   width: 100%;
@@ -231,7 +237,7 @@ height: 209px;
 
 
 .slick-slide {
-    margin: 0px 20px;
+    margin: 0px 5px;
 }
 
 
@@ -256,13 +262,13 @@ height: 209px;
     padding-top: 29px !important;;
 }
 .offer-book-btn{
-    background: #de264c;
-    color:#fff;
+    background: #de264c !important;
+    color:#fff !important;
     padding: 0px 26px !important;
     border-radius: 0 !important;
 }
 .travel-row{
-    margin: 18px 0px;
+    margin-bottom: 18px;
 }
 .card-body-2{
   padding:0px 1.25rem;
@@ -287,7 +293,7 @@ height: 209px;
 
   height: 554px;
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 .footer-mainDiv{
     padding: 150px  111px  0px !important;
@@ -308,12 +314,13 @@ height: 209px;
     border: 0 !important;
 }
 .footer-btn{
-  width: 20% !important;
+    width: 20% !important;
     /* display: flex; */
     float: right;
-    background: #de264c !important;
+    background: rgba(222, 38, 76,0.7)!important;
     color: #fff !important;
-    font-weight: 700
+    font-weight: 700;
+    border: 0 !important;
 }
 .address{
       font-size: 17px !important;
@@ -335,12 +342,14 @@ height: 209px;
   float: left;
 }
 .rel-main-info{
+    font-family: 'Roboto', sans-serif !important;
   width: 85%;
     padding-bottom: 6px;
   float: left;
       border-bottom: solid 1px #f5f5f5;
 }
 .rel-main-info2{
+    font-family: 'Roboto', sans-serif !important;
   width: 85%;
     padding-top: 6px;
   float: left;
@@ -369,16 +378,25 @@ border-left: solid 1px #f5f5f5;
 padding-left: 10px;
 }
 .city-btn{
-  padding: 0px 20px !important;
+  padding: 0px 15px !important;
   color: #fff;
-  background: #048a7d !important;
+  background: #048386 !important;
   border: 0 !important;
   border-radius: 0 !important;
   font-weight: 500 !important;
-  /* font-size: 14px !important; */
+   font-size: 12px !important;
+}
+.select-now{
+    padding: 0px 20px !important;
+    color: #fff;
+    background: #ca0852!important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+    /* font-size: 14px !important; */
 }
 .city-span{
-  font-size: 14px;
+  font-size: 12px;
     color: #797676;
     margin-top: -5px;
     display: block;
@@ -392,7 +410,7 @@ padding-left: 10px;
 }
 .avg-rate{
   font-size: 22px;
-      color: #8c8301;
+      color: #7cbd1b;
       font-weight: bold;
       margin-bottom: -5px;
       display: block;
@@ -405,19 +423,84 @@ padding-left: 10px;
 }
 .cmb{
     font-weight: 700;
-    font-size: 11px;
+    font-size: 12px;
+    text-transform:uppercase;
 }
 .cmb-icon{
-    width: 21px;
+    width: 31px;
 }
 .take-off{
-    color: #de3f4c;
+    color: #e22449;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
-.tack-date{
-        font-weight: 600;
-    font-size: 13px;
+.take-date{
+    font-weight: 500;
+    font-size: 12px;
+}
+.card-filter{
+    border: 0 !important;
+    /* background: #fff; */
+    margin-bottom: 10px;
+}
+.card-filter-h1{
+    background: #ffffff;
+    border: 0 !important;
+}
+.filter-btn{
+    color: #000 !important;
+
+    font-size: 22px !important;
+    font-weight: 500!important;
+}
+.filter-btn-icon{
+    padding-top: 14px;
+    font-size: 19px;
+    color: #e22449;
+    padding-right: 12px;
+}
+.sort-input{
+    margin: 6px 0px;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.sort-btn{
+    margin: 6px 0px;
+    border: 0 !important;
+    border-radius: 0 !important;
+    color: #fff;
+    font-weight: 600 !important;
+    background: #f6931d;
+    padding: 5px 44px !important;
+}
+.more-time-icon{
+    font-size: 17px;
+    color: #f6931d;
+}
+.insurance-btn-col{
+    text-align: center;
+    padding-top: 39px !important;
+
+}
+.insurance-btn{
+    background: #f6931d;
+    color: #fff;
+    font-weight: 600 !important;
+    padding: 6px 54px !important;
+    text-transform: uppercase;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.insu-text{
+    width: 30% !important;
+}
+.insu-img{
+    width: 60%!important;
+    padding-left: 5px;
+}
+.insu-btn{
+    width: 30%!important;
 }
 /**/
 /* Medium screen : 992px. */
@@ -444,16 +527,66 @@ padding-left: 10px;
         padding-top: 3px;
     }
     .info-icon {
-        width: 40px;
-        height: 40px;
+        width: 34px;
+        height: 34px;
         /* border-radius: 43px; */
         padding-top: 2px;
     }
     .item-info-text{
+        font-size: 14px;
+    }
+    .item-rate {
+        font-size: 13px;
+    }
+    .one-way {
+        width: 13%;
+        margin: 0px 5px;
+    }
+    .main-banner-main-div {
+        height: 450px;
+    }
+    .origin {
+        width: 47%;}
+    .depart {
+        width: 33.33%;
+        padding: 0 5px;
+    }
+    .serch-section{
+        margin-top: 220px;
+    }
+    .before-your-fly-text{
+        font-size: 14px;
+    }
+
+    .you-fly-title {
         font-size: 20px;
     }
-    .item-rate{
-        font-size: 18px;
+    .offer-img{
+        width:61px ;
+    }
+    .offer-book-btn {
+        font-weight: 700 !important;
+        padding: 0px 18px !important;
+    }
+    .offer-text {
+        font-size: 15px;
+        padding: 31px 7px 0px 1px !important;
+        line-height: 19px;
+    }
+    .insu-text{
+        width: 60% !important;
+    }
+    .insu-img{
+        width: 40%!important;
+    }
+    .insu-btn{
+        width: 100%!important;
+    }
+    .offer-btn-col {
+        padding-top: 6px !important;
+    }
+    .insurance-btn{
+        padding: 6px 20px !important;
     }
 }
 
@@ -476,6 +609,31 @@ padding-left: 10px;
     .item-rate{
         font-size: 16px;
     }
+    .origin{
+        width: 23%;
+    }
+    .flight-trip{
+        width: 15.3%;
+    }
+    .search-flight {
+
+        padding-right: 17px;
+    }
+    .offer-book-btn {
+        padding: 0px 20px !important;
+    }
+
+    .offer-text {
+        padding: 27px 0px 0px 2px !important;
+        font-size: 20px;
+    }
+    .offer-img{
+        width: 70px;
+    }
+    .offer-btn-col {
+        padding-top: 7px !important;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -497,6 +655,48 @@ padding-left: 10px;
     .item-rate{
         font-size: 20px;
     }
+    .one-way {
+        width: 10%;
+        margin: 0px 5px;
+    }
+    .origin{
+        width: 24%;
+        padding: 0 5px;
+    }
+    .depart{
+        width: 16%;
+        padding: 0 5px;
+    }
+    .main-banner-main-div{
+        height: 554px;
+
+    }
+    .serch-section {
+        padding: 20px 0;
+        margin-top: 315px;
+    }
+    .insurance-btn{
+        padding: 6px 34px !important;
+    }
+    .insurance-btn-col{
+        padding-top: 22px;
+    }
+    .offer-img {
+        width: 86px;
+    }
+    .insu-text{
+        width: 43% !important;
+    }
+    .insu-img{
+        width: 27%!important;
+    }
+    .insu-btn{
+        width: 30%!important;
+        padding-top: 44px !important;
+    }
+    .offer-img {
+        width: 75px;
+    }
 }
 @media (min-width:1630px) {
     .deal-item-img {
@@ -511,5 +711,26 @@ padding-left: 10px;
     .info-icon {
         width: 50px;
         height: 50px;
+    }
+    .one-way {
+        width: 10%;
+        margin: 0px 5px;
+    }
+    .origin{
+        width: 24%;
+        padding: 0 5px;
+    }
+    .depart{
+        width: 16%;
+        padding: 0 5px;
+    }
+    .insu-text{
+        width: 30% !important;
+    }
+    .insu-img{
+        width: 60%!important;
+    }
+    .insu-btn{
+        width: 30%!important;
     }
 }

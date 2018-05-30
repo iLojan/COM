@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="dist/slick/slick.css">
 
     <link rel="stylesheet" href="dist/css/bootstrap.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
   </head>
   <body>
     <div class="top-nav-section ">
@@ -32,18 +34,59 @@
 <section class="deal-section">
   <div class="container">
       <div class="row">
-        <div class="modify-main">Modify Search </div>
-         <div class="result-mai"> Sort Results by</div>
+        <div class="modify-main">
+            <div class="card card-filter">
+            <div class="card-filter-h1" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link filter-btn float-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Modify Search
+                    </button>
+
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        </div>
+         <div class="result-mai">
+          <div class="col-12">
+              <div class="card card-filter">
+                  <div class="card-filter-h1" id="headingOne">
+                      <div class="row">
+                          <div class="col-8">
+
+                                  <input type="text" placeholder="Sort Results By" class="sort-input form-control">
+
+                          </div>
+                          <div class="col-2 p-0">
+                              <button class="sort-btn btn   ">Price</button>
+                          </div>
+                          <div class="col-2 p-0">
+                              <button class=" sort-btn btn  ">Airline</button>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+
+         </div>
       </div>
       <div class="row">
         <div class="modify-main">
             <div id="accordion">
-              <div class="card">
-                <div class="card-header" id="headingOne">
+              <div class="card card-filter">
+                <div class="card-filter-h1" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Collapsible Group Item #1
+                    <button class="btn btn-link filter-btn float-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Airlines
                     </button>
+                      <i class="fas fa-plus float-right filter-btn-icon"></i>
                   </h5>
                 </div>
 
@@ -53,21 +96,56 @@
                   </div>
                 </div>
               </div>
-                
-                <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
+              <div class="card card-filter">
+                <div class="card-filter-h1" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link filter-btn float-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Flight Stops
+                    </button>
+                      <i class="fas fa-plus float-right filter-btn-icon"></i>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card card-filter">
+                <div class="card-filter-h1" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link filter-btn float-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Price
+                    </button>
+                      <i class="fas fa-plus float-right filter-btn-icon"></i>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card card-filter">
+                <div class="card-filter-h1" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link filter-btn float-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     More Filters
+                    </button>
+                      <i class="fas fa-plus float-right filter-btn-icon"></i>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+
             </div>
             
           
@@ -76,12 +154,12 @@
 
               <div class="col-12">
 
-                  <div class="card mb-3">
+                  <div class="card mb-3 border-0">
                     <div class="card-body">
                       <div class="rel-main-img"><img src="dist/img/deal-item/2.png"  alt=""> </div>
                        <div class="rel-main-info">
                          <div class="city-name-main">
-                            <p class="m-0">Colombo to Batticaloa <button class="btn city-btn">1stop</button></p>
+                            <p class="m-0">Colombo to Batticaloa &nbsp;<button class="btn city-btn">1stop</button></p>
                             <span class="city-span">ONEWAYFLGHT</span>
                          </div>
                          <div class="paci-icon-main">
@@ -96,12 +174,12 @@
                          <div class="city-take-col">
                             <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
                              <span class="cmb">CMB</span>
-                             <div class="take-off">take off</div>
+                             <div class="take-off">TAKE OFF</div>
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                          </div>
                             <div class="city-take-col pl-2">
-                                   <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
-                             <span class="cmb">CMB</span>
+                                   <img src="dist/img/icon/ICONS-02.png" class="cmb-icon">
+                             <span class="cmb">BKK</span>
                              <div class="take-off">take off</div>
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                             </div>
@@ -112,7 +190,7 @@
                              <div class="take-off"><img src="dist/img/icon/ICONS-01.png" class="cmb-icon">  MORE TIME</div>
                             </div>
                          <div class="sear-rate-main2">
-                            <button class="btn city-btn">SELECT NOW</button>
+                            <button class="btn select-now">SELECT NOW</button>
                          </div>
                       </div>
                   </div>
@@ -120,12 +198,12 @@
               </div>
                   
                   
-                  <div class="card mb-3">
+                  <div class="card  mb-3 border-0">
                     <div class="card-body">
                       <div class="rel-main-img"><img src="dist/img/deal-item/2.png"  alt=""> </div>
                        <div class="rel-main-info">
                          <div class="city-name-main">
-                            <p class="m-0">Colombo to Batticaloa <button class="btn city-btn">1stop</button></p>
+                            <p class="m-0">Colombo to Bangkok &nbsp;<button class="btn city-btn">1stop</button></p>
                             <span class="city-span">ONEWAYFLGHT</span>
                          </div>
                          <div class="paci-icon-main">
@@ -144,31 +222,31 @@
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                          </div>
                             <div class="city-take-col pl-2">
-                                   <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
-                             <span class="cmb">CMB</span>
-                             <div class="take-off">take off</div>
+                                   <img src="dist/img/icon/ICONS-02.png" class="cmb-icon">
+                             <span class="cmb">bkk</span>
+                             <div class="take-off">landing</div>
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                             </div>
                            <div class="city-take-col pl-2">
                                    <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
                              <span class="take-off">TOTAL TIME</span>
                              <div class="take-off">&nbsp;</div>
-                             <div class="take-off"><img src="dist/img/icon/ICONS-01.png" class="cmb-icon">  MORE TIME</div>
+                             <div class="take-off"><img src="dist/img/icon/ICONS-01.png" class="cmb-icon">  </div>
                             </div>
                          <div class="sear-rate-main2">
-                            <button class="btn city-btn">SELECT NOW</button>
+                            <button class="btn select-now">SELECT NOW</button>
                          </div>
                       </div>
                   </div>
 
               </div>
                   
-                  <div class="card mb-3">
+                  <div class="card mb-3 border-0">
                     <div class="card-body">
                       <div class="rel-main-img"><img src="dist/img/deal-item/2.png"  alt=""> </div>
                        <div class="rel-main-info">
                          <div class="city-name-main">
-                            <p class="m-0">Colombo to Batticaloa <button class="btn city-btn">1stop</button></p>
+                            <p class="m-0">Colombo to Batticaloa &nbsp;<button class="btn city-btn">1stop</button></p>
                             <span class="city-span">ONEWAYFLGHT</span>
                          </div>
                          <div class="paci-icon-main">
@@ -187,19 +265,19 @@
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                          </div>
                             <div class="city-take-col pl-2">
-                                   <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
-                             <span class="cmb">CMB</span>
-                             <div class="take-off">take off</div>
+                                   <img src="dist/img/icon/ICONS-02.png" class="cmb-icon">
+                             <span class="cmb">bkk</span>
+                             <div class="take-off">landing</div>
                              <div class="take-date">FIE 2 DEC 2017, 12.25AM</div>
                             </div>
                            <div class="city-take-col pl-2">
-                                   <img src="dist/img/icon/ICONS-01.png" class="cmb-icon">
+
                              <span class="take-off">TOTAL TIME</span>
                              <div class="take-off">&nbsp;</div>
-                             <div class="take-off"><img src="dist/img/icon/ICONS-01.png" class="cmb-icon">  MORE TIME</div>
+                             <div class="take-off"><i class="fas fa-plus float-right more-time-icon"></i>&nbsp;  MORE TImings</div>
                             </div>
                          <div class="sear-rate-main2">
-                            <button class="btn city-btn">SELECT NOW</button>
+                            <button class="btn select-now">SELECT NOW</button>
                          </div>
                       </div>
                   </div>
