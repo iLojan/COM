@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52ca5cd8-9adc-4e6d-b587-2558f5de2f4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83946">
-              <caret line="4938" column="24" lean-forward="false" selection-start-line="4938" selection-start-column="19" selection-end-line="4938" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="583" column="23" lean-forward="false" selection-start-line="583" selection-start-column="23" selection-end-line="583" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -59,8 +60,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -69,8 +70,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="713" column="5" lean-forward="true" selection-start-line="713" selection-start-column="5" selection-end-line="713" selection-end-column="5" />
+            <state relative-caret-position="804">
+              <caret line="751" column="5" lean-forward="false" selection-start-line="751" selection-start-column="5" selection-end-line="751" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -94,7 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Sele</find>
       <find>Batticaloa</find>
       <find>rel-main-info</find>
       <find>BKK</find>
@@ -124,6 +124,7 @@
       <find>@m</find>
       <find>@</find>
       <find>partner</find>
+      <find>576</find>
     </findStrings>
     <replaceStrings>
       <replace>card  mb-3 border-0</replace>
@@ -143,6 +144,7 @@
       <list>
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/../New MiracleOfAsiaAdminPanel/AdminPanel/room.html" />
+        <option value="$PROJECT_DIR$/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -154,8 +156,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -341,15 +343,15 @@
       <workItem from="1527175414419" duration="1102000" />
       <workItem from="1527478210475" duration="26134000" />
       <workItem from="1527652597717" duration="321000" />
-      <workItem from="1527677338065" duration="1290000" />
+      <workItem from="1527677338065" duration="3123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40654000" />
+    <option name="totallyTimeSpent" value="42487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,14 +605,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../New MiracleOfAsiaAdminPanel/AdminPanel/room.html" />
-    <entry file="file://$PROJECT_DIR$/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83946">
-          <caret line="4938" column="24" lean-forward="false" selection-start-line="4938" selection-start-column="19" selection-end-line="4938" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/slick/slick.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -637,18 +631,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="583" column="23" lean-forward="false" selection-start-line="583" selection-start-column="23" selection-end-line="583" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="713" column="5" lean-forward="true" selection-start-line="713" selection-start-column="5" selection-end-line="713" selection-end-column="5" />
+        <state relative-caret-position="804">
+          <caret line="751" column="5" lean-forward="false" selection-start-line="751" selection-start-column="5" selection-end-line="751" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding />
         </state>
       </provider>

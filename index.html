@@ -59,8 +59,9 @@
 </div>
 
 <section class="serch-section">
-    <div class="container">
+    <div class="container-fluid ma-popular">
         <div class="row">
+            <div class="container ">
             <div class="serch-col">
                 <div class="search-btn-group">
                     <div class="one-way">
@@ -93,7 +94,7 @@
 
                     </div>
                     <div class="origin">
-                        <label class="search-label" for="">Origin</label>
+                        <label class="search-label" for="">Destination</label>
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
                                 <div class="input-group-text search-icon">
@@ -157,14 +158,14 @@
             </div>
 
         </div>
-
+        </div>
     </div>
 </section>
-<div class="container">
-    <div class="row">
+
         <section class="deal-section">
-            <div class="container">
+            <div class="container-fluid ">
                 <div class="row">
+                    <div class="container mt-5">
                     <h2 class="section-h2">Today Deal & Offers</h2>
                     <div class=" gift slider ">
 
@@ -257,13 +258,14 @@
 
                 </div>
             </div>
-
+                </div>
         </section>
 
 
         <section class="deal-section">
-            <div class="container">
+            <div class="container-fluid ma-popular">
                 <div class="row">
+                    <div class="container mt-5">
                     <h2 class="section-h2">Our Partner</h2>
                     <div class=" partner slider ">
                     <div class="our-patner">
@@ -291,10 +293,13 @@
 
             </div>
             </div>
+            </div>
         </section>
 
         <section class="deal-section">
-            <div class="row">
+            <div class="container-fluid ma-popular">
+                <div class="row">
+                    <div class="container mt-5">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-4 mb-3">
@@ -410,6 +415,8 @@
                 </div>
             </div>
 
+                </div>
+            </div>
 
         </section>
 
@@ -428,9 +435,6 @@ kljlkh
         </section> -->
 
 
-
-    </div>
-</div>
 <footer class="deal-section">
 <div class="main-banner-main-div " style="background-image: url('dist/img/deal-item/contactus-image.jpg');">
 .<div class="col-12 footer-mainDiv">
@@ -493,8 +497,88 @@ kljlkh
             speed: 400,
         });
 
-
         $(".partner").slick({
+            dots: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+//            autoplay:true,
+            autoplay: false,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1631,
+                    settings: {
+                        arrows: true,
+                        autoplay: true,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 6
+                    }
+                },
+                {
+                    breakpoint: 1286,
+                    settings: {
+                        arrows: true,
+                        autoplay: false,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 5
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: true,
+                        autoplay: false,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 4
+                    }
+                },
+
+                {
+                    breakpoint: 993,
+                    settings: {
+                        arrows: false,
+                        autoplay: true,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 778,
+                    settings: {
+                        arrows: false,
+                        autoplay: false,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        autoplay: false,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        arrows: false,
+                        autoplay: false,
+                        centerMode: false,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+        $(".a").slick({
             dots: true,
             slidesToShow: 5,
             slidesToScroll: 1,
@@ -509,7 +593,7 @@ kljlkh
                         autoplay: false,
                         centerMode: false,
                         centerPadding: '40px',
-                        slidesToShow: 5
+                        slidesToShow: 6
                     }
                 },
                 {
