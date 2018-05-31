@@ -116,7 +116,7 @@ li{
   color: #fff;
 font-weight: 700;
 margin: 1px;
-font-size: 22px;
+font-size: 15px;
 }
 .origin{
   width: 24%;
@@ -515,18 +515,14 @@ padding-left: 10px;
   /* small Mobile :320px. */
 /*@media only screen and (max-width: 479px) {}*/
 
-@media (min-width: 576px) {
-    .origin{
-        width: 100%;
-        padding: 0 5px;
-    }
-    .depart{
-        width: 100%;
-        padding: 0 5px;
-    }
-}
 
-@media (min-width: 768px) {
+
+
+
+
+
+
+@media (min-width: 800px) {
     .deal-item-img{
         height: 180px;
     }
@@ -553,7 +549,8 @@ padding-left: 10px;
         height: 450px;
     }
     .origin {
-        width: 47%;}
+        width: 46%;
+    }
     .depart {
         width: 33.33%;
         padding: 0 5px;
@@ -595,7 +592,129 @@ padding-left: 10px;
     .insurance-btn{
         padding: 6px 20px !important;
     }
+
 }
+
+@media (min-width: 576px) {
+    .origin{
+        width: 100% ;
+        padding: 0 5px;
+    }
+    .depart{
+        width: 100% ;
+        padding: 0 5px;
+    }
+
+    .serch-section {
+        margin-top: 171px !important;
+    }
+    .or{
+        display: none;
+    }
+    .one-way {
+        width: 20%;
+        margin: 0px 2px;
+    }
+    .flight-trip {
+        width: 39%;
+        font-weight: 600;
+    }
+    .item-info-icon {
+        padding-top: 5px;
+    }
+    .info-icon{
+        width:32px;
+        height: 32px;
+    }
+    .item-into {
+        font-size: 15px;
+    }
+    .item-rate{
+        font-size: 12px;
+    }
+    .deal-item-img {
+        height: 166px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .deal-item-img{
+        height: 180px;
+    }
+    .item-info-icon {
+        padding-top: 3px;
+    }
+    .info-icon {
+        width: 34px;
+        height: 34px;
+        /* border-radius: 43px; */
+        padding-top: 2px;
+    }
+    .item-info-text{
+        font-size: 14px;
+    }
+    .item-rate {
+        font-size: 13px;
+    }
+    .one-way {
+        width: 13%;
+        margin: 0px 5px;
+    }
+    .main-banner-main-div {
+        height: 450px;
+    }
+    .origin {
+        width: 46%;
+    }
+    .depart {
+        width: 33.33%;
+        padding: 0 5px;
+    }
+    .or {
+        display: block;
+    }
+    .serch-section{
+        margin-top: 220px;
+    }
+    .before-your-fly-text{
+        font-size: 14px;
+    }
+
+    .you-fly-title {
+        font-size: 20px;
+    }
+    .offer-img{
+        width:61px ;
+    }
+    .offer-book-btn {
+        font-weight: 700 !important;
+        padding: 0px 18px !important;
+    }
+    .offer-text {
+        font-size: 15px;
+        padding: 31px 7px 0px 1px !important;
+        line-height: 19px;
+    }
+    .insu-text{
+        width: 60% !important;
+    }
+    .insu-img{
+        width: 40%!important;
+    }
+    .insu-btn{
+        width: 100%!important;
+    }
+    .offer-btn-col {
+        padding-top: 6px !important;
+    }
+    .insurance-btn{
+        padding: 6px 20px !important;
+    }
+}
+
+
 
 @media (min-width: 992px) {
     .deal-item-img{
@@ -618,6 +737,13 @@ padding-left: 10px;
     }
     .origin{
         width: 23%;
+    }
+    .depart{
+        width: 16%;
+        padding: 0 5px;
+    }
+    .or {
+        display: block;
     }
     .flight-trip{
         width: 15.3%;
@@ -673,6 +799,9 @@ padding-left: 10px;
     .depart{
         width: 16%;
         padding: 0 5px;
+    }
+    .or {
+        display: block;
     }
     .main-banner-main-div{
         height: 554px;
@@ -731,6 +860,9 @@ padding-left: 10px;
         width: 16%;
         padding: 0 5px;
     }
+    .or {
+        display: block;
+    }
     .insu-text{
         width: 43% !important;
     }
@@ -749,5 +881,10 @@ padding-left: 10px;
     .offer-text {
         padding: 38px 0px 0px 2px !important;
         font-size: 24px;
+    }
+    .serch-section {
+
+        margin-top: 365px;
+
     }
 }
