@@ -371,11 +371,16 @@ border-left: solid 1px #f5f5f5;
 padding-left: 10px;
 }
 .sear-rate-main2{
+    padding-top:11px ;
   width: 19%;
 float: left;
 text-align: center;
 border-left: solid 1px #f5f5f5;
 padding-left: 10px;
+}
+.result-mai-col{
+    padding: 0px 34px !important;
+    margin-top: 22px !important;
 }
 .city-btn{
   padding: 0px 15px !important;
@@ -496,7 +501,7 @@ padding-left: 10px;
     width: 30% !important;
 }
 .insu-img{
-    width: 60%!important;
+    width: 60%;
     padding-left: 5px;
 }
 .insu-btn{
@@ -520,9 +525,13 @@ padding-left: 10px;
 
 
 
-
-
-@media (min-width: 800px) {
+@media (min-width: 375px) {
+    .container{
+        padding: 0px 30px;
+    }
+    .or{
+        display: none;
+    }
     .deal-item-img{
         height: 180px;
     }
@@ -542,21 +551,26 @@ padding-left: 10px;
         font-size: 13px;
     }
     .one-way {
-        width: 13%;
+        width: 31%;
         margin: 0px 5px;
     }
+    .flight-trip{
+        width: 29.3%;
+        float: right;
+        font-weight: bold;
+    }
     .main-banner-main-div {
-        height: 450px;
+        height: 546px;
     }
     .origin {
-        width: 46%;
+        width: 100%;
     }
     .depart {
-        width: 33.33%;
+        width: 100%;
         padding: 0 5px;
     }
     .serch-section{
-        margin-top: 220px;
+        margin-top: 165px;
     }
     .before-your-fly-text{
         font-size: 14px;
@@ -573,21 +587,103 @@ padding-left: 10px;
         padding: 0px 18px !important;
     }
     .offer-text {
-        font-size: 15px;
-        padding: 31px 7px 0px 1px !important;
-        line-height: 19px;
+        padding: 30px 7px 0px 1px !important
     }
     .insu-text{
-        width: 60% !important;
+        width: 53% !important;
+
     }
     .insu-img{
-        width: 40%!important;
+        width: 22%;
     }
     .insu-btn{
-        width: 100%!important;
+        width:24%!important
     }
     .offer-btn-col {
-        padding-top: 6px !important;
+        padding-top:30px !important;
+    }
+    .insurance-btn{
+        padding: 6px 20px !important;
+    }
+
+}
+
+@media (min-width: 479px) {
+    .container{
+        padding: 0px 20px;
+    }
+    .or{
+        display: none;
+    }
+    .deal-item-img{
+        height: 180px;
+    }
+    .item-info-icon {
+        padding-top: 3px;
+    }
+    .info-icon {
+        width: 34px;
+        height: 34px;
+        /* border-radius: 43px; */
+        padding-top: 2px;
+    }
+    .item-info-text{
+        font-size: 14px;
+    }
+    .item-rate {
+        font-size: 13px;
+    }
+    .one-way {
+        width: 31%;
+        margin: 0px 5px;
+    }
+    .flight-trip{
+        width: 29.3%;
+        float: right;
+        font-weight: bold;
+    }
+    .main-banner-main-div {
+        height: 546px;
+    }
+    .origin {
+        width: 100%;
+    }
+    .depart {
+        width: 100%;
+        padding: 0 5px;
+    }
+    .serch-section{
+        margin-top: 165px;
+    }
+    .before-your-fly-text{
+        font-size: 14px;
+    }
+
+    .you-fly-title {
+        font-size: 20px;
+    }
+    .offer-img{
+        width:61px ;
+    }
+    .offer-book-btn {
+        font-weight: 700 !important;
+        padding: 0px 18px !important;
+    }
+    .offer-text {
+        padding: 30px 7px 0px 1px !important
+    }
+    .insu-text{
+        width: 53% !important;
+
+    }
+    .insu-img{
+        width: 22%;
+    }
+    .insu-btn{
+        width:24%!important
+    }
+    .offer-btn-col {
+        padding-top:30px !important;
     }
     .insurance-btn{
         padding: 6px 20px !important;
@@ -606,7 +702,7 @@ padding-left: 10px;
     }
 
     .serch-section {
-        margin-top: 171px !important;
+        margin-top: 171px ;
     }
     .or{
         display: none;
@@ -640,6 +736,14 @@ padding-left: 10px;
 
 
 @media (min-width: 768px) {
+    .section-h2 {
+
+        font-size: 28px;
+    }
+    .deal-section-bottom {
+        padding-top: 3%;
+        padding-bottom: 58px;
+    }
     .deal-item-img{
         height: 180px;
     }
@@ -701,7 +805,7 @@ padding-left: 10px;
         width: 60% !important;
     }
     .insu-img{
-        width: 40%!important;
+        width: 40%;
     }
     .insu-btn{
         width: 100%!important;
@@ -712,6 +816,61 @@ padding-left: 10px;
     .insurance-btn{
         padding: 6px 20px !important;
     }
+
+
+    /*SEARCH PAGE*/
+    .avg-span {
+        font-size: 11px;
+    }
+    .avg-rate {
+        font-size: 12px;
+    }
+    .result-mai-col {
+        padding: 0px 15px !important;
+        margin-top: 4px !important;
+    }
+
+    .city-take-col {
+        width: 49%;
+        padding-top: 8px;
+        float: left;
+        border-left: solid 1px #f5f5f5;
+        border-top: solid 1px #f5f5f5;
+        border-right: 0px;
+        padding-left: 0.5rem !important;
+    }
+    .rel-main-info2 {
+        font-family: 'Roboto', sans-serif !important;
+        width: 100%;
+         padding-top: 0px;
+        border: solid 1px #f5f5f5;
+    }
+    .sear-rate-main2 {
+        padding-top: 48px;
+        width: 49%;
+        text-align: center;
+        border-left: solid 1px #f5f5f5;
+        padding-left: 10px;
+        border-top: solid 1px #f5f5f5;
+    }
+
+    .select-now {
+        right: 22px;
+        position: absolute;
+    }
+
+    .air-logo{
+        width: 59px;
+    }
+    .filter-btn-icon {
+        padding-top: 7px;
+    }
+    .filter-btn {
+
+        font-size: 15px !important;
+
+    }
+
 }
 
 
@@ -765,6 +924,23 @@ padding-left: 10px;
     }
     .offer-btn-col {
         padding-top: 7px !important;
+    }
+
+
+
+
+    /*SEARCH PAGE*/
+    .avg-rate {
+        font-size: 20px;
+    }
+
+    .select-now {
+        padding: 0px 14px !important;
+        font-size: 13px !important;
+    }
+    .take-date {
+        font-weight: 500;
+        font-size: 11px;
     }
 
 }
@@ -824,7 +1000,7 @@ padding-left: 10px;
         width: 43% !important;
     }
     .insu-img{
-        width: 27%!important;
+        width: 27%;
     }
     .insu-btn{
         width: 30%!important;
@@ -867,7 +1043,7 @@ padding-left: 10px;
         width: 43% !important;
     }
     .insu-img{
-        width: 27%!important;
+        width: 27%;
         padding-right: 13px;
     }
     .insu-btn{

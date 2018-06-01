@@ -48,9 +48,7 @@ html {
 @-ms-viewport {
   width: device-width;
 }
-.a12{
-  background: #fff;
-}
+
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -560,32 +558,25 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    width: 540px;
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    width: 960px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    width: 1255px;
-  }
-}
-
-@media (min-width: 1630px) {
-  .container {
-    width: 1735px !important;
-    padding:0px 60px !important;
+    max-width: 1255px;
   }
 }
 
@@ -8956,7 +8947,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .container {
-    width: 992px !important;
+    min-width: 992px !important;
   }
   .navbar {
     display: none;
