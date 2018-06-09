@@ -642,6 +642,7 @@ padding-left: 10px;
     float: left;
 
 }
+
 .trip-col-3{
     width: 100%;
     float: left;
@@ -656,7 +657,59 @@ padding-left: 10px;
     padding: 0px 10px;
     background: #ffa707;
 }
+.traveler-form-row{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.form-row-item1{
+    width:33%;
+    float: left;
+    padding: 0px 5px;
+}
 
+.form-row-item2{
+    width:33%;
+    float: left;
+    padding: 0px 5px;
+}
+
+.form-row-item3{
+    width:33%;
+    float: left;
+    padding: 0px 5px;
+}
+.traveler-input{
+    width: 100%;
+    background: #ccc;
+    border: 0;
+    height: 19px;
+    padding: 0px 5px;
+    color: #8a8a8a;
+}
+.form-row-name{
+    width: 75%;
+    float: left;
+}
+.form-row-name-title{
+    width: 25%;
+    float: left;
+    padding-top: 2px;
+}
+.traveler-selec-title{
+    width: 100%;
+    background: #ccc;
+    border: 0;
+    height: 19px;
+    padding: 0px 5px;
+    color: #8a8a8a;
+}
+.trvavel-row{
+    width: 100%;
+    /*float: left;*/
+}
 /**/
 /* Medium screen : 992px. */
 /*@media only screen and (min-width: 992px) and (max-width: 1199px) {}*/
@@ -1955,10 +2008,12 @@ padding-left: 10px;
         border-radius: 0 !important;
     }
     .insu-text{
-        width: 30% !important;
+        width: 40% !important;
+        padding-left: 5px;
+        font-size: 17px;
     }
     .insu-img{
-        width: 60%;
+        width: 30%;
         padding-left: 5px;
     }
     .insu-btn{
@@ -2026,6 +2081,9 @@ padding-left: 10px;
     .complete-city-name {
         font-weight: 500;
         font-size: 16px;
+    }
+    .price-col-1{
+        border: 0;
     }
 }
 @media (min-width:1630px) {
