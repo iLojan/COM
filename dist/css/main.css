@@ -131,6 +131,7 @@ font-size: 15px;
   border-radius: 10px 0px 0px 0px !important;
   border: none !important;
   padding: 2px !important;
+    background: #ccc !important;
 }
 .search-icon-size{
     width:44px;
@@ -148,6 +149,11 @@ font-size: 15px;
       border: none !important;
   border-radius: 0px 10px 0px 0px !important;
   padding: 6px !important;
+    flex: 1 1 auto;
+    background-color: #ccc;
+}
+.beg{
+    background:#ccc !important;
 }
 .input-group-text{
   background-color:#fff !important;
