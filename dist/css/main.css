@@ -665,7 +665,7 @@ padding-left: 10px;
     padding-right: 9px;
 }
 .form-row-item1{
-    width:33%;
+    width:34%;
     float: left;
     padding: 0px 5px;
 }
@@ -681,16 +681,51 @@ padding-left: 10px;
     float: left;
     padding: 0px 5px;
 }
+.form-row-select{
+    width:66%;
+    float: left;
+    padding: 0px 5px;
+}
 .traveler-input{
     width: 100%;
-    background: #ccc;
+    background: #f3f3f3;
     border: 0;
     height: 19px;
     padding: 0px 5px;
-    color: #8a8a8a;
+    color: #a2a2a2;
+}
+.traveler-select{
+    width: 19%;
+    background: #f3f3f3;
+    border: 0;
+    height: 19px;
+    padding: 0px 5px;
+    color: #a2a2a2;
+}
+.traveler-label{
+    padding:0px 5px;
+    margin: 0;
+}
+.traveler-label2{
+    padding:0px 9px;
+    margin: 0;
+}
+.traveler-select2{
+    width: 24.3%;
+    background: #f3f3f3;
+    border: 0;
+    height: 19px;
+    padding: 0px 5px;
+    color: #a2a2a2;
+}
+.form-row-name2{
+    width: 75%;
+    font-size: 15px;
+    float: left;
 }
 .form-row-name{
-    width: 75%;
+    width: 100%;
+    font-size: 15px;
     float: left;
 }
 .form-row-name-title{
@@ -706,9 +741,31 @@ padding-left: 10px;
     padding: 0px 5px;
     color: #8a8a8a;
 }
+.travel-checkBox{
+    padding-top: 22px;
+    line-height: 18px;
+}
 .trvavel-row{
     width: 100%;
-    /*float: left;*/
+    display: flex;
+}
+
+.trvavel-btn{
+    width: 100%;
+    float: right;
+}
+
+.trvavel-text-rih-ght{
+    text-align: right;
+}
+.pay-btn{
+    background: #fea93e;
+    border: 0;
+    float: right;
+    color: #fff;
+    margin: 0px 4px;
+    width: 19%;
+    border-radius: 3px;
 }
 /**/
 /* Medium screen : 992px. */
@@ -1761,7 +1818,7 @@ padding-left: 10px;
         width: 85%;
     }
     .deal-item-img{
-        height: 180px;
+        height: 250px;
     }
     .item-info-icon {
         padding-top: 3px;
