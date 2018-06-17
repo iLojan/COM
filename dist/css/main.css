@@ -131,6 +131,7 @@ font-size: 15px;
   border-radius: 10px 0px 0px 0px !important;
   border: none !important;
   padding: 2px !important;
+    background: #ccc !important;
 }
 .search-icon-size{
     width:44px;
@@ -148,6 +149,11 @@ font-size: 15px;
       border: none !important;
   border-radius: 0px 10px 0px 0px !important;
   padding: 6px !important;
+    flex: 1 1 auto;
+    background-color: #ccc;
+}
+.beg{
+    background:#ccc !important;
 }
 .input-group-text{
   background-color:#fff !important;
@@ -475,9 +481,9 @@ padding-left: 10px;
     border: 0 !important;
     border-radius: 0 !important;
     color: #fff !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     background: #f6931d !important;
-    padding: 5px 53px !important;
+    padding: 1px 5px !important;
 }
 .more-time-icon{
     font-size: 17px;
@@ -828,6 +834,7 @@ padding-left: 10px;
     float: left;
     border-right: solid 1px rgb(136, 136, 136);
     background-color: white;
+    padding: 17px 6px;
 }
 .booking-city-name{
     color: rgb(79, 79, 79);
@@ -841,16 +848,38 @@ padding-left: 10px;
     font-size: 13px;
 }
 .booking-details-col{
-    width: 20%;
+    width: 33.333%;
+    float: left;
+}
+.booking-details-col2{
+    width: 50%;
+    float: left;
+}
+
+.model-booking-details-col{
+    width: 25%;
+    float: left;
+}
+.model-bookin-detail-main1 {
+    width: 70%;
+    float: left;
+}
+.model-bookin-detail-main2 {
+    width: 30%;
+    padding-top: 39px;
+    float: left;
+}
+.bookin-detail-main2 {
+    width: 30%;
     float: left;
 }
 .city-name-main-new{
     width: 100%;
     float: left;
+    padding-bottom: 11px;
 }
 
 .city-name-main-new1{
-    padding-top: 10px;
     width: 100%;
     float: left;
 }
@@ -863,8 +892,9 @@ padding-left: 10px;
 .book-btn{
     background: rgb(217, 40, 82);
     border: 0;
-    padding: 5px 16px;
+    padding: 1px 9px;
     color: #fff;
+    text-transform: uppercase;
     font-weight: 700;
 }
 .detail-col-h2{
@@ -875,15 +905,51 @@ color: rgb(125, 125, 125);
 }
 .booking-date-time{
     line-height: 11px;
-    font-size: 9px;
+    font-size: 10px;
 }
 .more-time{
     color: rgb(192, 10, 84);
     font-size: 10px;
-    font-weight: 700;
+
 }
 .booking-rate{
     font-weight: 700;
+}
+.tickert-text{
+    text-align: center;
+}
+.btn-text{
+    text-align: right;
+}
+.booking-card{
+    border-radius: 7px !important;
+    margin-bottom: 12px;
+}
+
+.detail-main{
+    flex: 0 0 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.bookin-detail-main1{
+
+    width: 60%;
+    float: left;
+}
+.bookin-detail-main2{
+   padding-top: 39px;
+    width: 40%;
+    float: left;
+}
+.booking-details-sec{
+
+    width: 100%;
+    float: left;
+    padding-bottom: 9px;
+}
+.model-width{
+    max-width: 1000px !important;;
 }
 
 /**/
@@ -2166,7 +2232,7 @@ color: rgb(125, 125, 125);
         color: #fff !important;
         font-weight: 400 !important;
         background: #f6931d !important;
-        padding: 5px 53px !important;
+        padding: 1px 5px !important;
     }
     .more-time-icon{
         font-size: 17px;
@@ -2202,19 +2268,19 @@ color: rgb(125, 125, 125);
         width: 100%;
     }
     .sort-input-main{
-        width: 63.666667%;
+        width: 81%;
         padding-right: 15px;
         padding-left: 15px;
     }
     .sort-price{
-        width: 16.666667%;
-        padding: 0px 5px;
+        width: 7%;
+        padding: 5px 5px;
 
     }
     .sort-air{
-        width: 16.666667%;
-        padding: 0px 11px;
-        margin-right: 15px;
+        width: 7%;
+        padding: 5px 11px;
+        margin-right: 0px;
     }
 
 
