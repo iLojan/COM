@@ -30,6 +30,9 @@ body{
 li{
   list-style: none;
 }
+::placeholder{
+    color:#000 !important;
+}
 .card{
     border-radius: 0 !important;
     height: 100%;
@@ -115,9 +118,9 @@ li{
 }
 .search-label{
   color: #fff;
-font-weight: 700;
+
 margin: 1px;
-font-size: 15px;
+font-size: 17px;
 }
 .origin{
   width: 24%;
