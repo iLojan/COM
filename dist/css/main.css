@@ -878,7 +878,7 @@ padding-left: 10px;
 }
 .model-bookin-detail-main2 {
     width: 30%;
-    padding-top: 39px;
+    padding-top: 0px;
     float: left;
 }
 .bookin-detail-main2 {
@@ -980,6 +980,10 @@ color: rgb(125, 125, 125);
     border-radius: 5px !important;
     background: #e6e6e6 !important;
     margin-bottom: 6px;
+}
+.collapse-width{
+    width: 60%;
+    float: left;
 }
 
 /**/
@@ -2262,7 +2266,7 @@ color: rgb(125, 125, 125);
         color: #fff !important;
         font-weight: 400 !important;
         background: #f6931d !important;
-        padding: 1px 5px !important;
+        padding: 2px 5px !important;
     }
     .more-time-icon{
         font-size: 17px;
